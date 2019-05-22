@@ -1,0 +1,15 @@
+body{
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 16px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+h6 {
+  display: inline-block;
+  font-size: 0.8em;
+}
