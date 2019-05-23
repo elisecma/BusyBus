@@ -9,7 +9,18 @@ img {
   object-fit: cover;
 }
 
-h6 {
+h2 {
+  font-size: 1em;
+  color: #000000;
+}
+
+li.header {
   display: inline-block;
-  font-size: 0.8em;
+  text-align: center;
+  padding-right: 40px;
+}
+
+.column_titles {
+  background-color:#D6D5D5;
+  text
 }
