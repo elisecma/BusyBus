@@ -29,7 +29,7 @@ img {
 .arrow {
   position: absolute;
   float: right;
-  top: 50%;
+  top: 15%;
   left: 90%;
   margin: 0;
 }
@@ -41,7 +41,10 @@ img {
 
 .arrival {
   display: inline-block;
+  position: absolute;
+  top: 15%;
   font-size: 1.5em;
+  width: 20%;
 }
 
 .busstop {
@@ -51,9 +54,10 @@ img {
 }
 
 .content {
-  position: relative;
   margin-bottom: 60px;
+  margin-top: 60px;
   font-size: 1em;
+  line-height: 2em;
 }
 
 .content:hover {
@@ -63,7 +67,11 @@ img {
 .destination {
   display: inline-block;
   font-size: 1.5em;
-  padding-right: 75px;
+  width: 35%;
+}
+
+.emphasized {
+  font-style: italic;
 }
 
 .header {
@@ -82,11 +90,12 @@ img {
   display: inline-block;
   font-weight: 600;
   text-align: left;
-  padding-right: 115px;
   margin-left: 60px;
+  width: 18%;
 }
 
 .linerows {
   margin: 16px 0px 16px 0px;
   border-bottom: 1px solid #898789;
+  position: relative;
 }
