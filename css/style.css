@@ -4,12 +4,16 @@
 
 body{
   font-family: "Helvetica Neue", sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   background-color: #F9F9F9;
+  width: 100%;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 1.5em;
+  margin-top:10%;
+  position:relative;
+  text-align: center;
 }
 
 h2 {
@@ -21,26 +25,23 @@ img {
   width: 100%;
   height: auto;
   object-fit: cover;
+  display: block;
 }
 
 .arrow {
-  position: absolute;
-  float: right;
-  top: 15%;
-  left: 90%;
-  margin: 0;
+  display: inline-block;
+  position: relative;
 }
 
 .arrow-left {
-  margin: 0px 0px 30px 24px;
+  margin: 10px 0px 30px 24px;
 }
 
 .arrival {
   display: inline-block;
-  position: absolute;
   top: 15%;
-  font-size: 1.5em;
-  width: 25%;
+  width:30%;
+  margin-left: 8px;
 }
 
 .busstop {
@@ -51,48 +52,55 @@ img {
 
 
 .content {
-  margin-bottom: 60px;
-  margin-top: 60px;
   font-size: 1em;
-  line-height: 2em;
+  line-height: 1.8em;
 }
 
 
 .destination {
   display: inline-block;
-  font-size: 1.5em;
-  width: 35%;
+  margin-left: 32px;
+  width: 40%;
 }
 
 .emphasized {
   font-style: italic;
 }
 
-.header {
+.headerarrival {
   display: inline-block;
-  font-size: 1em;
-  margin: 16px 80px 16px 60px;
+  font-size: 0.8em;
+  width: 30%;
+}
+
+.headerline {
+  display: inline-block;
+  font-size: 0.8em;
+  width: 15%;
+}
+
+.headerdestination {
+  display: inline-block;
+  font-size: 0.8em;
+  width: 40%;
 }
 
 .headercontainer {
   background-color: #E9F1F8;
   font-weight: 500;
+  display: inline-block;
+  padding: 8px 0px 8px 40px;
+  width: 100%;
 }
 
 .line {
   color: #020A70;
   display: inline-block;
   font-weight: 600;
-  text-align: left;
-  margin-left: 60px;
-  width: 18%;
+  width: 10%;
 }
 
 .linerows {
   border-bottom: 1px solid #898789;
-  position: relative;
-}
-
-.linerows:hover {
-    background-color: #B4B2B4;
+  padding: 24px;
 }
