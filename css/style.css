@@ -4,20 +4,24 @@
 
 body{
   font-family: "Helvetica Neue", sans-serif;
-  font-size: 14px;
-  background-color: #F9F9F9;
+  font-size: 15px;
+  background-color: #F8F8F8;
   width: 100%;
 }
 
 h1 {
   font-size: 1.5em;
-  margin-top:10%;
-  position:relative;
+}
+
+h1.busstop {
+  font-size: 1em;
+  font-weight: 500;
+  margin-top: 5%;
   text-align: center;
 }
 
 h2 {
-  font-size: 1em;
+  font-size: 0.8em;
   color: #000000;
 }
 
@@ -39,27 +43,18 @@ img {
 
 .arrival {
   display: inline-block;
-  top: 15%;
+  margin-left: 5%;
   width:30%;
-  margin-left: 8px;
 }
-
-.busstop {
-  text-align: center;
-  font-size: 3em;
-  margin: 30px 0px 0px 0px;
-}
-
 
 .content {
-  font-size: 1em;
-  line-height: 1.8em;
+  line-height: 1.5em;
 }
 
 
 .destination {
   display: inline-block;
-  margin-left: 32px;
+  margin-left: 7%;
   width: 40%;
 }
 
@@ -69,27 +64,27 @@ img {
 
 .headerarrival {
   display: inline-block;
-  font-size: 0.8em;
+  margin-left: 6%;
   width: 30%;
 }
 
 .headerline {
   display: inline-block;
-  font-size: 0.8em;
-  width: 15%;
+  width: 10%;
 }
 
 .headerdestination {
   display: inline-block;
-  font-size: 0.8em;
+  margin-left: 7%;
   width: 40%;
 }
 
 .headercontainer {
   background-color: #E9F1F8;
+  font-size: 0.8em;
   font-weight: 500;
   display: inline-block;
-  padding: 8px 0px 8px 40px;
+  padding: 8px 24px 8px 16px;
   width: 100%;
 }
 
@@ -102,5 +97,5 @@ img {
 
 .linerows {
   border-bottom: 1px solid #898789;
-  padding: 24px;
+  padding: 16px;
 }
