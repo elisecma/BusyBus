@@ -35,10 +35,12 @@ img {
 .arrow {
   display: inline-block;
   position: relative;
+  color: #525252;
 }
 
 .arrow-left {
   margin: 10px 0px 30px 24px;
+  color: #525252;
 }
 
 .arrival {
