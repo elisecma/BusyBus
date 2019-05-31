@@ -14,7 +14,7 @@ h1 {
 }
 
 h1.busstop {
-  display: inline-block;
+display: inline-block;
   font-weight: 500;
   margin: auto 0;
   text-align: center;
@@ -32,16 +32,22 @@ img {
   display: block;
 }
 
+p {
+  line-height: 1.5em;
+  color: #1A1B16;
+}
+
 .arrow {
   display: inline-block;
   position: relative;
   color: #525252;
+  padding-bottom: 2%;
 }
 
 .arrow-left {
   color: #525252;
   display: inline-block;
-  padding: 5%;
+  margin-left: 5%;
   position: relative;
 }
 
@@ -50,6 +56,16 @@ img {
   margin-left: 5%;
   width:30%;
 }
+
+.busstop {
+  align-content: center;
+  margin-top: 32px;
+}
+
+.center {
+  display: block;
+  text-align: center;
+}​
 
 .content {
   line-height: 1.5em;
@@ -100,6 +116,10 @@ img {
 }
 
 .linerows {
-  border-bottom: 1px solid #898789;
+  border-bottom: 1px solid #E4E4E6;
   padding: 16px;
+}
+
+.navbar {
+  height: 48px;
 }
